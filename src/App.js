@@ -19,13 +19,12 @@ function App() {
   };
 
   const toggleDepartmentCollapse = (id) => {
-    console.log(id, data);
     setData({
       ...data,
       collapsed: true,
       departments: data.departments.map((department) => {
         if (department.id === id) {
-          return { ...department, collapsed: !department.collapsed }; // !department.collapsed
+          return { ...department, collapsed: !department.collapsed };
         } else {
           return department;
         }
@@ -34,13 +33,14 @@ function App() {
   };
 
   const toggleSectionCollapse = (departmentId, sectionId) => {
+    console.log(`departmentId ${departmentId}`, `section id ${sectionId}`);
     setData({
       ...data,
       departments: data.departments.map((department) => {
         if (departmentId === department.id) {
           const newSections = department.sections.map((section) => {
             if (section.id === sectionId) {
-              return { ...section, collapsed: !section.collapsed }; // !section.collapsed
+              return { ...section, collapsed: !section.collapsed };
             } else {
               return section;
             }
