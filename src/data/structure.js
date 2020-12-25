@@ -68,13 +68,13 @@ export const structureData = {
       sections: [
         {
           id: 0,
-          title: "IT Department",
+          title: "Web Development",
           collapsed: false,
           employees: [
             {
               avatar,
               name: "Toghrul Rajab",
-              position: "director",
+              position: "manager",
               email: "email@mail.com",
               numbers: [
                 {
@@ -103,13 +103,13 @@ export const structureData = {
           positions: [
             {
               id: 0,
-              title: "IT Department",
+              title: "UI/UX Design team",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "manager",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -138,13 +138,13 @@ export const structureData = {
             },
             {
               id: 0,
-              title: "IT Department",
+              title: "UI/UX Designer",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "employee",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -173,13 +173,13 @@ export const structureData = {
             },
             {
               id: 0,
-              title: "IT Department",
+              title: "Frontend developer",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "employee",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -212,7 +212,7 @@ export const structureData = {
     },
     {
       id: 1,
-      title: "IT Department",
+      title: "Marketing",
       collapsed: false,
       employees: [
         {
@@ -247,13 +247,13 @@ export const structureData = {
       sections: [
         {
           id: 1,
-          title: "IT Department",
+          title: "SMM",
           collapsed: false,
           employees: [
             {
               avatar,
               name: "Toghrul Rajab",
-              position: "director",
+              position: "Manager",
               email: "email@mail.com",
               numbers: [
                 {
@@ -282,13 +282,13 @@ export const structureData = {
           positions: [
             {
               id: 1,
-              title: "IT Department",
+              title: "PR",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "Manager",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -317,13 +317,13 @@ export const structureData = {
             },
             {
               id: 1,
-              title: "IT Department",
+              title: "Content creator",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "employee",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -352,13 +352,13 @@ export const structureData = {
             },
             {
               id: 1,
-              title: "IT Department",
+              title: "Copywriter",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "employee",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -391,7 +391,7 @@ export const structureData = {
     },
     {
       id: 2,
-      title: "IT Department",
+      title: "HR",
       collapsed: false,
       employees: [
         {
@@ -426,13 +426,13 @@ export const structureData = {
       sections: [
         {
           id: 2,
-          title: "IT Department",
+          title: "Law",
           collapsed: false,
           employees: [
             {
               avatar,
               name: "Toghrul Rajab",
-              position: "director",
+              position: "Manager",
               email: "email@mail.com",
               numbers: [
                 {
@@ -461,13 +461,13 @@ export const structureData = {
           positions: [
             {
               id: 2,
-              title: "IT Department",
+              title: "Career",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "Manager",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -496,13 +496,13 @@ export const structureData = {
             },
             {
               id: 2,
-              title: "IT Department",
+              title: "Middle ",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "employee",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -531,13 +531,13 @@ export const structureData = {
             },
             {
               id: 2,
-              title: "IT Department",
+              title: "senior",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "employee",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -570,7 +570,7 @@ export const structureData = {
     },
     {
       id: 3,
-      title: "IT Department",
+      title: "Content Team",
       collapsed: false,
       employees: [
         {
@@ -605,13 +605,13 @@ export const structureData = {
       sections: [
         {
           id: 3,
-          title: "IT Department",
+          title: "Event organizer",
           collapsed: false,
           employees: [
             {
               avatar,
               name: "Toghrul Rajab",
-              position: "director",
+              position: "Manager",
               email: "email@mail.com",
               numbers: [
                 {
@@ -640,13 +640,13 @@ export const structureData = {
           positions: [
             {
               id: 3,
-              title: "IT Department",
+              title: "Events",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "Manager",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -675,13 +675,13 @@ export const structureData = {
             },
             {
               id: 3,
-              title: "IT Department",
+              title: "Junior",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "employee",
                   email: "email@mail.com",
                   numbers: [
                     {
@@ -710,13 +710,13 @@ export const structureData = {
             },
             {
               id: 3,
-              title: "IT Department",
+              title: "Middle",
               collapsed: false,
               employees: [
                 {
                   avatar,
                   name: "Toghrul Rajab",
-                  position: "director",
+                  position: "emoloyee",
                   email: "email@mail.com",
                   numbers: [
                     {

@@ -17,15 +17,17 @@ $black: #333150;
     padding: 0.5rem;
 
     .Menu-Sub-item {
-      border: 2px solid green;
+      // border: 2px solid green;
+      margin-left: 1rem;
       &:hover {
-        cursor: pointer;
-        color: #0072ff;
+        // cursor: pointer;
+        // color: #0072ff;
       }
 
       .Menu-Sub-Sub-item {
-        background-color: aqua;
-        border: 1px solid black;
+        // background-color: aqua;
+        margin-left: 1rem;
+        // border: 1px solid black;
       }
     }
   }
