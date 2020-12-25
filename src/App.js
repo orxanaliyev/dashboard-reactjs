@@ -33,7 +33,6 @@ function App() {
   };
 
   const toggleSectionCollapse = (departmentId, sectionId) => {
-    console.log(`departmentId ${departmentId}`, `section id ${sectionId}`);
     setData({
       ...data,
       departments: data.departments.map((department) => {

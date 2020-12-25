@@ -5,26 +5,52 @@ $black: #333150;
   box-shadow: 0.648305px 1.94492px 7.77966px rgba(0, 0, 0, 0.03);
   border-radius: 11.6695px;
   padding: 1rem;
-  width: 230px;
+  width: 260px;
   height: 612px;
   color: $black;
   h5 {
     font-weight: 600;
   }
   .Menu-item {
-    // border: 1px solid red;
-    font-weight: 500;
-    padding: 0.5rem;
+    font-weight: 600;
+    color: $black;
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 0;
 
-    .Menu-Sub-item {
-      // border: 2px solid green;
-      margin-left: 1rem;
-
-      .Menu-Sub-Sub-item {
-        // background-color: aqua;
-        margin-left: 1rem;
-        // border: 1px solid black;
-      }
+    &:hover {
+      color: #0085ff;
+      cursor: pointer;
     }
+  }
+}
+
+.Menu-Sub-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0.4rem;
+  padding: 0.1rem 0;
+
+  &:hover {
+    color: #0085ff;
+    cursor: pointer;
+  }
+}
+
+.Menu-Sub-Sub-item {
+  margin-left: 0.8rem;
+  color: grey;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0.1rem 0;
+
+  &:hover {
+    color: #0085ff;
+    cursor: pointer;
   }
 }

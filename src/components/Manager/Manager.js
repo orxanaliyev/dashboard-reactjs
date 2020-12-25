@@ -6,7 +6,6 @@ const Manager = ({ departmentId, section, toggleSectionCollapse }) => {
   const toggleSubEmployee = (event, id) => {
     event.stopPropagation();
     toggleSectionCollapse(departmentId, id);
-    console.log(`sectionID ${id}`, `departmentID ${departmentId}`);
   };
 
   return (
