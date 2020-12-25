@@ -8,6 +8,7 @@ import { structureData } from "./data/structure";
 import StructureContext from "./StructureContext";
 import { Router } from "@reach/router";
 import Details from "./components/Details/Details";
+import Main from "./components/Main/Main";
 
 function App() {
   const [data, setData] = useState(structureData);
@@ -59,22 +60,19 @@ function App() {
     <>
       <Header />
       <Sidebar />
-      <main className="main-container">
-        <StructureContext.Provider
-          value={{
-            data,
-            toggleDepartmentCollapse,
-            toggleSectionCollapse,
-            toggleCEOCollapse,
-          }}
-        >
-          <Menu />
-          <Router>
-            <Structure path="/" />
-            <Details path="/details" />
-          </Router>
-        </StructureContext.Provider>
-      </main>
+      <StructureContext.Provider
+        value={{
+          data,
+          toggleDepartmentCollapse,
+          toggleSectionCollapse,
+          toggleCEOCollapse,
+        }}
+      >
+        <Router>
+          <Main path="/" />
+          <Details path="/details" />
+        </Router>
+      </StructureContext.Provider>
     </>
   );
 }

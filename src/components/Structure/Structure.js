@@ -3,6 +3,7 @@ import "./Structure.scss";
 import StructureContext from "../../StructureContext";
 import viewIcon from "../../data/img/icons/view.png";
 import mailToIcon from "../../data/img/icons/mail-to.png";
+import { Link } from "@reach/router";
 
 function Structure() {
   const {
@@ -58,8 +59,13 @@ function Structure() {
           </div>
 
           <div className="Employee-Card-footer">
-            <button>Bax</button>
-            <button>Mail at</button>
+            <Link to="/details" className="footer-btn">
+              <img src={viewIcon} alt="view" /> Bax
+            </Link>
+            <button className="footer-btn">
+              <img src={mailToIcon} alt="mail-to" />
+              Mail at
+            </button>
           </div>
         </div>
       </div>

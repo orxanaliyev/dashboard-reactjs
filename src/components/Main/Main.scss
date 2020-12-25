@@ -1,0 +1,11 @@
+.main-container {
+  position: absolute;
+  padding: 2rem;
+  width: calc(100% - 300px);
+  height: calc(100vh - 150px);
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  left: 300px;
+  top: 200px;
+}

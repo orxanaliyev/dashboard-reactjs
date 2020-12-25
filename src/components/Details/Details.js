@@ -1,3 +1,4 @@
+import { Router } from "@reach/router";
 import React from "react";
 import avatar from "../../data/img/av-2.png";
 import "./Details.scss";
@@ -23,6 +24,8 @@ function Details() {
               </div>
               <div className="d-flex p-1 flex-direction-row justify-content-between">
                 <span className="_score">222</span>
+                <span className="_score">222</span>
+                <span className="_score">222</span>
               </div>
             </div>
           </div>
@@ -38,8 +41,7 @@ function Details() {
             </div>
           </div>
 
-          <div className="Employee-Card-footer">
-            <button>Bax</button>
+          <div className="Employee-Card-footer text-center">
             <button>Mail at</button>
           </div>
         </div>
@@ -48,8 +50,9 @@ function Details() {
   };
 
   return (
-    <div>
+    <div className="Details">
       <EmployeeCard />
+      <></>
     </div>
   );
 }
