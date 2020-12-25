@@ -14,10 +14,10 @@ function Structure() {
   } = useContext(StructureContext);
 
   const EmployeeCard = (props) => {
-    // console.log(props);
+    console.log(props);
 
     return (
-      <div className="Employee-Card" onClick={toggleCEO}>
+      <div className="Employee-Card my-5" onClick={toggleCEO}>
         <div>
           <div className="Employee-Card-header">
             <div>

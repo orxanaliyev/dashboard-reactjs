@@ -2,8 +2,6 @@ import "./App.scss";
 import React, { useState } from "react";
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
-import Menu from "./components/Menu/Menu";
-import Structure from "./components/Structure/Structure";
 import { structureData } from "./data/structure";
 import StructureContext from "./StructureContext";
 import { Router } from "@reach/router";
