@@ -14,10 +14,13 @@ function Structure() {
   } = useContext(StructureContext);
 
   const EmployeeCard = (props) => {
-    console.log(props);
+    console.log(props.id);
 
     return (
-      <div className="Employee-Card my-5" onClick={toggleCEO}>
+      <div
+        className={`Employee-Card mx-auto mb-5 ${props.id ? `mx-5` : ``}`}
+        onClick={toggleCEO}
+      >
         <div>
           <div className="Employee-Card-header">
             <div>
@@ -81,17 +84,17 @@ function Structure() {
     return (
       <div onClick={(event) => toggleEmployee(event, department.id)}>
         {department.employees.map((employee, index) => (
-          <div key={index}>
-            <EmployeeCard
-              avatar={employee.avatar}
-              title={employee.title}
-              name={employee.name}
-              email={employee.email}
-              structure={employee.structure}
-              position={employee.position}
-              numbers={employee.numbers}
-            />
-          </div>
+          <EmployeeCard
+            key={employee.numbers}
+            id={department.id}
+            avatar={employee.avatar}
+            title={employee.title}
+            name={employee.name}
+            email={employee.email}
+            structure={employee.structure}
+            position={employee.position}
+            numbers={employee.numbers}
+          />
         ))}{" "}
         {department.collapsed
           ? department.sections.map((section, index) => (
@@ -120,7 +123,6 @@ function Structure() {
       <div onClick={toggleSubEmployee}>
         {section.employees.map((employee, index) => (
           <div key={index}>
-            {/* {employee.name} - {employee.position} */}
             <EmployeeCard
               avatar={employee.avatar}
               title={employee.title}

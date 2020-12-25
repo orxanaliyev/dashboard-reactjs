@@ -11,6 +11,13 @@ $light_brown: #fff9c7;
 
 .Structure {
   margin: 0 auto;
+  width: 900px;
+  height: 700px;
+  overflow: auto;
+  border: 1px solid #f6f6f6;
+  box-shadow: 0.845026px 2.53508px 10.1403px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  padding: 1rem;
 
   .Employee-Card {
     width: 250px;

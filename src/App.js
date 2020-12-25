@@ -25,7 +25,7 @@ function App() {
       collapsed: true,
       departments: data.departments.map((department) => {
         if (department.id === id) {
-          return { ...department, collapsed: true }; // !department.collapsed
+          return { ...department, collapsed: !department.collapsed }; // !department.collapsed
         } else {
           return department;
         }
@@ -40,7 +40,7 @@ function App() {
         if (departmentId === department.id) {
           const newSections = department.sections.map((section) => {
             if (section.id === sectionId) {
-              return { ...section, collapsed: true }; // !section.collapsed
+              return { ...section, collapsed: !section.collapsed }; // !section.collapsed
             } else {
               return section;
             }
