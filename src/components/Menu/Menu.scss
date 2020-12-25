@@ -1,0 +1,32 @@
+$black: #333150;
+
+.Menu {
+  background: #ffffff;
+  box-shadow: 0.648305px 1.94492px 7.77966px rgba(0, 0, 0, 0.03);
+  border-radius: 11.6695px;
+  padding: 1rem;
+  width: 230px;
+  height: 612px;
+  color: $black;
+  h5 {
+    font-weight: 600;
+  }
+  .Menu-item {
+    // border: 1px solid red;
+    font-weight: 500;
+    padding: 0.5rem;
+
+    .Menu-Sub-item {
+      border: 2px solid green;
+      &:hover {
+        cursor: pointer;
+        color: #0072ff;
+      }
+
+      .Menu-Sub-Sub-item {
+        background-color: aqua;
+        border: 1px solid black;
+      }
+    }
+  }
+}

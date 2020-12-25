@@ -1,0 +1,27 @@
+.Header {
+  width: calc(100% - 310px);
+  margin-left: 310px;
+
+  .header-top-icons {
+    text-align: right;
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+
+  input {
+    border-color: #e3e8ef;
+    border-radius: 7px;
+  }
+
+  button {
+    background: linear-gradient(180deg, #00c6ff -144.44%, #0072ff 233.33%);
+    border-radius: 6px;
+    border-color: transparent;
+    color: white;
+    width: 128px;
+
+    &:hover {
+      background: linear-gradient(180deg, #1088aa -144.44%, #0072ff 233.33%);
+    }
+  }
+}

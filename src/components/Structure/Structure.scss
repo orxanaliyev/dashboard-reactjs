@@ -1,0 +1,71 @@
+$black: #5e646f;
+$grey: #9ba5b7;
+$mauve: #826cfc;
+$light_mauve: #f2f0fe;
+$light_blue: #c0e8ff;
+$blue: #0085ff;
+$green: #54b806;
+$light_green: #d7ffe2;
+$brown: #d4a707;
+$light_brown: #fff9c7;
+
+.Structure {
+  margin: 0 auto;
+
+  .Employee-Card {
+    width: 250px;
+    background: #ffffff;
+    box-shadow: 0.845026px 2.53508px 10.1403px rgba(0, 0, 0, 0.03);
+    border-radius: 6.76021px;
+    height: 226px;
+    padding: 0.5rem;
+    color: $black;
+    border: 1px solid #f6f6f6;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    .Employee-Card-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .Employee-Card-container {
+      width: 220px;
+      margin: auto;
+      background: #f7fcff;
+      padding: 0.8rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border-radius: 5.07016px;
+
+      .sides {
+        width: calc(100% / 2);
+      }
+      .border-right {
+        border-right: 0.845026px solid #c1cbde;
+      }
+      span {
+        font-size: 11px;
+      }
+      h6 {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        color: $grey;
+      }
+    }
+    .Employee-Card-footer {
+    }
+  }
+}
+._score {
+  font-weight: 700;
+  font-size: 10px;
+  padding: 0.1rem 0.2rem;
+  border-radius: 2px;
+}
